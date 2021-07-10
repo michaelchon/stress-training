@@ -1,0 +1,20 @@
+.word-container {
+    color: rgba(0, 0, 0, 0.8);
+    user-select: none;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.word {
+    font-size: 5rem;
+    font-weight: 600;
+    font-style: italic;
+}
+@media screen and (max-width: 425px) {
+    .word {
+        font-size: 4rem;
+    }
+}
+
+.additional-part {
+    margin-top: 1rem;
+}
